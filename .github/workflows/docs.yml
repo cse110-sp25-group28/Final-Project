@@ -3,6 +3,7 @@ name: Generate JSDoc
 on:
   push:
     branches: [main]  # or your default branch
+  workflow_dispatch:  # This enables manual triggering from the GitHub UI
 
 jobs:
   jsdoc:
